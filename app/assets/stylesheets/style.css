@@ -97,6 +97,7 @@ img {
   height: 270px;
   width: 100vw;
   margin-bottom: 40px;
+  
 }
 /* 記事部分 */
 article {
@@ -135,6 +136,8 @@ article {
 /* サイドバー */
 aside {
   width: 22%;
+  position: fixed;
+  right:0;
 }
 article img {
   margin-bottom: 20px;
@@ -337,4 +340,16 @@ iframe {
   text-align: center;
 }
 
+/* recipes/famile.html.erb
+------------------------------- */
+.famile{
+  width: 100%;
+}
+.famile img {
+  margin-bottom: 20px;
 
+}
+.familemoji{
+  font-size: 18px;
+  line-height: 42px;
+}

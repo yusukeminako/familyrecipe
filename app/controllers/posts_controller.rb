@@ -4,4 +4,6 @@ class PostsController < ApplicationController
 
   def new
   end
+  def famile
+  end
 end
