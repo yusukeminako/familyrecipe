@@ -6,4 +6,6 @@ class PostsController < ApplicationController
   end
   def famile
   end
+  def anketo
+  end
 end
