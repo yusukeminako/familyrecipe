@@ -52,3 +52,5 @@ production:
   database: familyrecipe_production
   username: familyrecipe
   password: <%= ENV['FAMILYRECIPE_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
+
