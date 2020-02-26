@@ -1,24 +1,14 @@
-# README
+# NAME
+Family recipe 〜料理代行会社のサイト〜
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Overview
+料理の代行サービスの情報を発信する為のサイトである。
 
-Things you may want to cover:
+## Description
+会社概要ページ、新着情報ページ、Instaglamページ、レシピページで情報発信しています。
+お問い合わせフォームで情報入力ができるようになっております。
 
-* Ruby version
+## Demo
+7a45d2efcbb418bd0f554f72aee03377.mp4
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Features
