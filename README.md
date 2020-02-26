@@ -9,7 +9,5 @@ Overview
 お問い合わせフォームで情報入力ができるようになっております。
 
 ## Demo
-
-![demo](https://https://gyazo.com/22c0fa0a29d78086ca56a66184dc126f/raw)
-
+https://i.gyazo.com/22c0fa0a29d78086ca56a66184dc126f.mp4
 # Features
