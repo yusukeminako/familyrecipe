@@ -21,8 +21,7 @@ Family recipe 〜料理代行会社のサイト〜
 [![Image from Gyazo](https://i.gyazo.com/d26b675cbe0ea88c9c9ce6a30f891e44.gif)]<br>
 
 Instaglam<br>
-[![Image from Gyazo](https://i.gyazo.com/1f8fbbc3cd3e20b0265ac6530ebd054f.gif)](https://gyazo.com/1f8fbbc3cd3e20b0265ac6530ebd054f)
-
+[![Image from Gyazo](https://i.gyazo.com/1f8fbbc3cd3e20b0265ac6530ebd054f.gif)]
 ## 使用したgem
 gem 'rails', '~> 5.2.3'<br>
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
