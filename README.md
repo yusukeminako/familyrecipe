@@ -10,6 +10,6 @@ Overview
 
 ## Demo
 
-![demo](https://gyazo.com/https:/9998f6ab0f712738f406f5c9aa21cc8f/raw)
+![demo](https://gyazo.com/https:/9998f6ab0f712738f406f5c9aa21cc8f)
 
 # Features
