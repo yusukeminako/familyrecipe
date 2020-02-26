@@ -18,10 +18,10 @@ Family recipe 〜料理代行会社のサイト〜
 
 ## Demo
 お問い合わせフォーム</br>
-[![Image from Gyazo](https://i.gyazo.com/d26b675cbe0ea88c9c9ce6a30f891e44.gif)]<br>
+![Image from Gyazo](https://i.gyazo.com/d26b675cbe0ea88c9c9ce6a30f891e44.gif)<br>
 
 Instaglam<br>
-[![Image from Gyazo](https://i.gyazo.com/e426c85e2cd43f42173b2ce51bc014af.jpg)]
+![Image from Gyazo](https://i.gyazo.com/e426c85e2cd43f42173b2ce51bc014af.jpg)
 ## 使用したgem
 gem 'rails', '~> 5.2.3'<br>
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'
