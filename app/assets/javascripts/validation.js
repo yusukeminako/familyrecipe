@@ -1,10 +1,10 @@
 $(function(){
 	$('input:submit[id="user_btn"]').click(function(){
-		// if(!input_check()){
-		// 	return false;
-    // }C
-    console.log("hello");
-    return false;
+		if(!input_check()){
+			return false;
+    }
+    // console.log("hello");
+    // return false;
   });
 });
 function input_check(){
