@@ -1,5 +1,6 @@
 $(function(){
 	$('input:submit[id="user_btn"]').click(function(){
+    console.log("hello");C
 		if(!input_check()){
 			return false;
     }
