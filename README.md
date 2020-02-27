@@ -18,7 +18,7 @@ Family recipe 〜料理代行会社のサイト〜
 
 ## Demo
 お問い合わせフォーム</br>
-![Image from Gyazo](https://i.gyazo.com/d26b675cbe0ea88c9c9ce6a30f891e44.gif)<br>
+[![Image from Gyazo](https://i.gyazo.com/074c2c10e7c00651ac714294c7887ffc.gif)<br>
 
 Instaglam<br>
 ![Image from Gyazo](https://i.gyazo.com/e426c85e2cd43f42173b2ce51bc014af.jpg)

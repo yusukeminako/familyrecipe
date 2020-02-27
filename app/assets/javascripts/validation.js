@@ -2,7 +2,7 @@ $(function(){
 	$('input:submit[id="user_btn"]').click(function(){
 		// if(!input_check()){
 		// 	return false;
-    // }
+    // }C
     console.log("hello");
     return false;
   });
