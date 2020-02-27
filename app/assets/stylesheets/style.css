@@ -339,6 +339,17 @@ iframe {
 .topbutton{
   text-align: center;
 }
+/* お問い合わせ入力エラー */
+#name_error{
+  color: red;
+}
+#tel_error{
+  color: red;
+}
+#mail_error{
+  color: red;
+}
+
 
 /* recipes/famile.html.erb
 ------------------------------- */

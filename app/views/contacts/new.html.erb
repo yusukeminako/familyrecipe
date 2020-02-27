@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>family recipe</title>
-    <meta name="description" content="家事代行サービス"
+    <meta name="description" content="家事代行サービス">
   </head>
   <body>
     <div class="big-bg4">
@@ -26,16 +26,19 @@
             詳細はまだまだ掲載できていない部分もありますの是非、一度ご連絡くださいませ。
         </p>
         <%= form_with(model: @contact, local: true) do |form| %>
-          <label for="name">お名前</label>
-          <%= form.text_field :name, placeholder: "name" %>
-          <label for="tel">電話番号</label>
-          <%= form.text_field :tel, placeholder: "tel" %>
-          <label for="mail">メールアドレス</label>
-          <%= form.text_field :mail, placeholder: "mail" %>
-          <label for="message">メッセージ</label>
-          <%= form.text_area :content, placeholder: "message" %>
+          <label for="name">お名前</label><div id="name_error"></div>
+          <%= form.text_field :name, id: :name, placeholder: "name" %>
+
+          <label for="tel">電話番号</label><div id="tel_error"></div>
+          <%= form.text_field :tel, id: :tel, placeholder: "tel" %>
+
+          <label for="mail">メールアドレス</label><div id="mail_error"></div>
+          <%= form.text_field :mail, id: :mail, placeholder: "mail" %>
+
+          <label for="message">メッセージ</label><div id="message_error"></div>
+          <%= form.text_area :content, id: :message, placeholder: "message" %>
           <div>
-            <%= form.submit '送信', class:"button" %>
+            <%= form.submit '送信', class:"button", id: :user_btn %>
           </div>
         <% end %>
       </div>
