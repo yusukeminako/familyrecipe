@@ -37,7 +37,7 @@ function input_check(){
   if(mailla == ""){
     $("#mail_error").html("　*メールアドレスは必須です。");
     result = false;
-  }else if(!mailla.match(/^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]{1,}\.[A-Za-z0-9]{1,}$/)){
+  }else if(!mailla.match( /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]{1,}\.[A-Za-z0-9]{1,}$/)){
     $("#mail_error").html("　*メールアドレスが正しくありません。");
     result = false;
   }
