@@ -14,7 +14,7 @@
                 <li><a href="/posts">TOP</a></li>
                 <li><a href="/posts/new">新着情報</a></li>
                 <li><a href="/posts/recipe">レシピ紹介</a></li>
-                <li><a href="/posts/contact">お問い合わせ</a></li>
+                <li><a href="/contacts/new">お問い合わせ</a></li>
             </ul>
         </nav>
       </header>
@@ -25,7 +25,7 @@
             忙しいみなさまのお役立ちができればと考えております。<br>
             詳細はまだまだ掲載できていない部分もありますの是非、一度ご連絡くださいませ。
         </p>
-        <%= form_with(model: @contact, local: true) do |form| %>
+        <%= form_with(model: @contact, local: true, url: confirm_contacts_path, method: :get) do |form| %>
           <label for="name">お名前</label><div id="name_error"></div>
           <%= form.text_field :name, id: :name, placeholder: "name" %>
 
@@ -38,7 +38,7 @@
           <label for="message">メッセージ</label><div id="message_error"></div>
           <%= form.text_area :content, id: :message, placeholder: "message" %>
           <div>
-            <%= form.submit '送信', class:"button", id: :user_btn %>
+            <%= form.submit '確認画面へ', class:"button", id: :user_btn %>
           </div>
         <% end %>
       </div>

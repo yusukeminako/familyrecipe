@@ -17,6 +17,7 @@ body{
 }
 a {
     text-decoration: none;
+    color:white;
 }
 ul{
   list-style: none;
@@ -177,6 +178,7 @@ footer {
   background: #432;
   text-align: center;
   padding: 26px 0;
+  bottom: 0; /*下に固定*/
 }
 footer p {
   color: #fff;
@@ -363,4 +365,81 @@ iframe {
 .familemoji{
   font-size: 18px;
   line-height: 42px;
+}
+/* contacts/confirm.html.erb */
+.contacts-title{
+  text-align: center;
+  font-size: 30px;
+}
+.contacts{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  padding-bottom: 70px;
+}
+.contacts-name{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+
+}
+.contacts-name__koumoku{
+  padding: 0 10px;
+}
+.contacts-name__name{
+  padding: 0 10px;
+}
+
+
+
+.contacts-tel{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.contacts-tel__koumoku{
+  padding: 0 10px;
+}
+.contacts-tel__name{
+  padding: 0 10px;
+}
+
+
+
+.contacts-mail{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.contacts-mail__koumoku{
+  padding: 0 10px;
+}
+.contacts-mail__name{
+  padding: 0 10px;
+}
+
+
+
+.contacts-content{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.contacts-content__koumoku{
+  padding: 0 10px;
+}
+.contacts-content__name{
+  padding: 0 10px;
+}
+.contacts-button-box{
+  display: flex;
+  justify-content: center;
+}
+.contacts-button{
+  font-size: 1.5rem;
+  background: #0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 18px 32px;
+  width: 96px;
 }

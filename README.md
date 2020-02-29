@@ -21,7 +21,8 @@ Family recipe 〜料理代行会社のサイト〜
 ・名前、電話番号、メールアドレスの入力がないと[*○○は必須です。]<br>
 ・名前半角数字があるとき、[*名前に半角数字を含んではいけません。]<br>
 ・電話番号7桁または8桁以外の場合、[*7桁または8桁の半角数字で入力お願いします。]<br>
-・メールアドレス(/^(0[5-9]0[0-9]{8}|0[1-9][1-9][0-9]{7})$/)以外とき[*メールアドレスが正しくありません]
+・メールアドレス(/^(0[5-9]0[0-9]{8}|0[1-9][1-9][0-9]{7})$/)以外とき[*メールアドレスが正しくありません]<br>
+お問い合わせフォームで情報を入力後、確認画面に遷移するようになっている。確認画面の実装にはsessionを使ってデータの保持をし、確認画面でsessionのデータを呼び出し、入力情報を表示している。
 
 
 ## Demo
@@ -29,6 +30,15 @@ Family recipe 〜料理代行会社のサイト〜
 ![Image from Gyazo](https://i.gyazo.com/df08e2e1e4777e3826d278f2bb684190.gif)<br>
 Instaglam<br>
 ![Image from Gyazo](https://i.gyazo.com/e426c85e2cd43f42173b2ce51bc014af.jpg)
+
+## contactsテーブル
+|Column|Type|Options|
+|------|----|null: false|
+|name|text|null: false|
+|tel|text|null: false|
+|mail|text|null: false|
+|content|text||
+
 ## 使用したgem
 gem 'rails', '~> 5.2.3'<br>
 gem 'mysql2', '>= 0.4.4', '< 0.6.0'

@@ -5,6 +5,13 @@ Rails.application.routes.draw do
   get 'posts/famile', to: 'posts#famile'
   get 'posts/show', to: 'posts#show'
   get 'posts/recipe', to: 'recipes#new'
-  get 'posts/contact', to: 'contacts#new'
-  post 'posts/contact', to: 'contacts#create'
+  # get 'posts/contact', to: 'contacts#new'
+  # post 'posts/contact', to: 'contacts#create'
+  resources :contacts, only: [:new, :create] do
+    collection do
+      get 'confirm', to: 'contacts#confirm'
+      post 'create', to: 'contacts#create'
+      get 'done', to: 'contacts#done'
+    end
+  end
 end
