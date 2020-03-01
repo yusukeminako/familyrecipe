@@ -376,11 +376,14 @@ iframe {
   padding-top: 20px;
   font-size: 20px;
   padding-bottom: 70px;
+  padding: 20px 542px;
 }
 .contacts-name{
   padding: 10px;
   display: flex;
   justify-content: center;
+  border-bottom: thin solid;
+  border-bottom-color: powderblue;
 
 }
 .contacts-name__koumoku{
@@ -396,6 +399,8 @@ iframe {
   padding: 10px;
   display: flex;
   justify-content: center;
+  border-bottom: thin solid;
+  border-bottom-color: powderblue;
 }
 .contacts-tel__koumoku{
   padding: 0 10px;
@@ -410,6 +415,8 @@ iframe {
   padding: 10px;
   display: flex;
   justify-content: center;
+  border-bottom: thin solid;
+  border-bottom-color: powderblue;
 }
 .contacts-mail__koumoku{
   padding: 0 10px;
@@ -424,6 +431,8 @@ iframe {
   padding: 10px;
   display: flex;
   justify-content: center;
+  border-bottom: thin solid;
+  border-bottom-color: powderblue;
 }
 .contacts-content__koumoku{
   padding: 0 10px;
@@ -434,6 +443,7 @@ iframe {
 .contacts-button-box{
   display: flex;
   justify-content: center;
+  padding-top: 10px;
 }
 .contacts-button{
   font-size: 1.5rem;
