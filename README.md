@@ -5,6 +5,9 @@ Family recipe 〜料理代行会社のサイト〜
 ## FAMILYRECIPEとは
 料理の代行サービスの情報を発信する為のページである。SNSでの情報発信がメインであるが、ホームページを作成することで新たな顧客層にFAMILRECIPE知っていただきたいとの想いでこのページを作成。実際に私の妻が始めた事業である。
 
+## デプロイ先
+https://familyrecipe05.herokuapp.com/
+
 ## ページ紹介
 ・TOP<br>
 ・会社概要<br>
