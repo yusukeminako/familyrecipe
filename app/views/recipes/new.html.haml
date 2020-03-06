@@ -1,0 +1,56 @@
+!!!
+%html{:lang => "ja"}
+  %body
+    %meta{:charset => "utf-8"}/
+    %title レシピ一覧
+    %meta{:content => "家事代行サービス", :name => "description"}/
+    .big-bg3
+      %header.page-header.wrapper
+        %h1
+          %a{:href => "/posts"}
+            %img.logo{:alt => "ふぁみれロゴ", :src => "../assets/familelogo3.jpg"}/
+        %nav
+          %ul.main-nav
+            %li
+              %a{:href => "/posts"} TOP
+            %li
+              %a{:href => "/posts/new"} 新着情報
+            %li
+              %a{:href => "/posts/recipe"} レシピ紹介
+            %li
+              %a{:href => "/contacts/new"} お問い合わせ
+      .menu-content.wrapper
+        %h2.page-title レシピ一覧
+        %p
+          管理栄養士の視点からご家族にあったお食事を提供します。
+          %br/
+          ここに掲載のレシピは実際に提供したレシピです。
+      / /.menu-content
+    .wrapper.grid
+      .item.big-box
+        %img.qr{:alt => "", :src => "../assets/ryouri7.jpg"}/
+        %p
+          作り置き１
+          %br>/
+          3日分の作り置きです。
+          %br>/
+          お客様のご要望でお野菜を中心とした作り置きになっています。
+          %br>/
+          また、お野菜嫌いなお子様のためにお野菜をミキサーで砕きわからないように工夫をしています。
+      .item
+        %img{:alt => "", :src => "../assets/ryouri6.jpg"}/
+        %p 作り置き２
+      .item
+        %img{:alt => "", :src => "../assets/ryouri8.jpg"}/
+        %p 作り置き3
+      .item
+        %img{:alt => "", :src => "../assets/ryouri4.jpg"}/
+        %p キャラ弁
+      .item
+        %img{:alt => "", :src => "../assets/ryouri5.png"}/
+        %p 夕食
+    / /.grid
+    %footer
+      .wrapper
+        %p
+          %small family recipe

@@ -1,0 +1,30 @@
+!!!
+%html{:lang => "ja"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %title family recipe
+    %meta{:content => "家事代行サービス", :name => "description"}/
+  %body
+    #home.big-bg
+      %header.page-header.wrapper
+        %h1
+          %a{:href => "/posts"}
+            %img.logo{:alt => "ふぁみれロゴ", :src => "../assets/familelogo3.jpg"}/
+        %nav
+          %ul.main-nav
+            %li
+              %a{:href => "/posts"} TOP
+            %li
+              %a{:href => "posts/new"} 新着情報
+            %li
+              %a{:href => "posts/recipe"} レシピ紹介
+            %li
+              %a{:href => "/contacts/new"} お問い合わせ
+      .home-content.wrapper
+        %h2.page-title Family recipe
+        %p
+          育児、家事、お仕事で忙しいみなさまへ。
+          %br>/
+          家族の美味しい笑顔をお届けします。
+        %a.button{:href => "posts/famile"} Family recipe

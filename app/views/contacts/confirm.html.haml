@@ -1,0 +1,46 @@
+%body
+  .big-bg5
+    %header.page-header.wrapper
+      %h1
+        %a{:href => "/posts"}
+          %img.logo{:alt => "ふぁみれロゴ", :src => "../assets/familelogo3.jpg"}/
+      %nav
+        %ul.main-nav
+          %li
+            %a{:href => "/posts"} TOP
+          %li
+            %a{:href => "/posts/new"} 新着情報
+          %li
+            %a{:href => "/posts/recipe"} レシピ紹介
+          %li
+            %a{:href => "/contacts/new"} お問い合わせ
+    .contacts-title
+      入力内容確認
+    .contacts
+      .contacts-name
+        .contacts-name__koumoku
+          名前
+        .contacts-name__name
+          = @contacts.name
+      .contacts-tel
+        .contacts-tel__koumoku
+          電話番号
+        .contacts-tel__name
+          = @contacts.tel
+      .contacts-mail
+        .contacts-mail__koumoku
+          メールアドレス
+        .contacts-mail__name
+          = @contacts.mail
+      .contacts-content
+        .contacts-content__koumoku
+          メッセージ
+        .contacts-content__name
+          = @contacts.content
+      .contacts-button-box
+        .contacts-button
+          = link_to "送信する", contacts_path, method: :post
+    %footer
+      .wrapper2
+        %p
+          %small family recipe

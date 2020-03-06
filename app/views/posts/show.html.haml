@@ -1,0 +1,36 @@
+!!!
+%html{:lang => "ja"}
+  %body
+    .big-bg
+      %header.page-header.wrapper
+        %h1
+          %a{:href => "/posts"}
+            %img.logo{:alt => "ふぁみれロゴ", :src => "../assets/familelogo3.jpg"}/
+        %nav
+          %ul.main-nav
+            %li
+              %a{:href => "/posts"} TOP
+            %li
+              %a{:href => "/posts/new"} 新着情報
+            %li
+              %a{:href => "/posts/recipe"} レシピ紹介
+            %li
+              %a{:href => "/contacts/new"} お問い合わせ
+      %section#sns
+        .wrapper
+          .sns-box
+            %h3.show-title Instagrm
+            %p 毎日更新中です♪是非ご覧ください
+            %script{:defer => "defer", :src => "https://apps.elfsight.com/p/platform.js"}
+            .elfsight-app-3c87b4aa-3f4c-4a9c-8bf4-809a399861ab
+          %p.show-tyui ※上記の”Free Instagram Feed widget"というボタンはインスタグラムの広告です。
+          %br/
+          %br/
+        / /.wrapper
+      / /#sns
+      %p.show-otoiawase LINEとInstagramのQRコードはこちら↓↓
+      %img.show-images{:alt => "料理教室の様子", :src => "../assets/QR"}/
+      %footer
+        .wrapper
+          %p
+            %small family recipe
