@@ -1,0 +1,52 @@
+!!!
+%html{:lang => "ja"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %title お問い合わせ
+    %meta{:content => "家事代行サービス", :name => "description"}/
+  %body
+    .big-bg5
+      %header.page-header.wrapper
+        %h1
+          %a{:href => "/posts"}
+            %img.logo{:alt => "ふぁみれロゴ", :src => "../assets/familelogo3.jpg"}/
+        %nav
+          %ul.main-nav
+            %li
+              %a{:href => "/posts"} TOP
+            %li
+              %a{:href => "/posts/new"} 新着情報
+            %li
+              %a{:href => "/posts/recipe"} レシピ紹介
+            %li
+              %a{:href => "/contacts/new"} お問い合わせ
+      .wrapper
+        %p.page-title2 ご登録ありがとうございました。
+        .topbutton
+          %a.button{:href => "/posts"} TOPへ戻る
+    %section#location
+      .wrapper
+        .location-info
+          %h3.sub-title Family recipe
+          %p
+            住所： 福岡県大野城市
+            %br/
+            栄町１丁目2-9
+            %br/
+            アクセスシティ千歳II
+            %br/
+            電話： 03-1111-1111
+            %br/
+            営業時間： 10:00〜20:00
+            %br/
+            休日：水曜
+        / /.location-info
+        .location-map
+          %iframe{:allowfullscreen => "", :frameborder => "0", :height => "400", :src => "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.4738307751954!2d130.46754461464147!3d33.54106335194288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3541909d267218d5%3A0x72dfa5b7ae75e1e1!2z44CSODE2LTA5MjQg56aP5bKh55yM5aSn6YeO5Z-O5biC5qCE55S677yR5LiB55uu77yS4oiS77yZIOOCouOCr-OCu-OCueOCt-ODhuOCo-WNg-ats0lJ!5e0!3m2!1sja!2sjp!4v1579515086048!5m2!1sja!2sjp", :style => "border:0;", :width => "800"}
+        / /.location-map
+      / /.wrapper
+    %footer
+      .wrapper
+        %p
+          %small family recipe
