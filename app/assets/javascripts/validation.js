@@ -1,14 +1,13 @@
 $(function(){
-	$('input:submit[id="user_btn"]').click(function(){
+	$('input:submit[id="user_btn"]').click(function(){//確認画面ボタンを押した時
 		if(!input_check()){
-			return false;
+			return false; //イベントの処理を中断
     }
-    // console.log("hello");
-    // return false;
   });
 });
 function input_check(){
-  var result = true;
+  // var result:resultという変数を定義
+  var result = true; //変数resultに正しい値が格納された時
   // 入力エラー文をリセット
   $("#name_error").empty();
   $("#tel_error").empty();
@@ -24,15 +23,15 @@ function input_check(){
     result = false;
   }else if(namea.match(/[0-9]/)){
     $("#name_error").html("　*名前に半角数字を含んではいけません。");
-    result = false;
+    result = false;//イベントの処理を中断
   }
   //電話番号
   if(tela == ""){
     $("#tel_error").html("　*電話番号は必須です。");
     result = false;
   }else if(!tela.match(/^(0[5-9]0[0-9]{8}|0[1-9][1-9][0-9]{7})$/)){
-    $("#tel_error").html("　*7桁または8桁の半角数字で入力お願いします。");
-    result = false;
+    $("#tel_error").html("　*10桁または11桁の半角数字で入力お願いします。");
+    result = false;//イベントの処理を中断
   }
 
   // メールアドレス
