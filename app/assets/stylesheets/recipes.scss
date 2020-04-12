@@ -1,3 +1,45 @@
-// Place all the styles related to the recipes controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/* recipes/new.html.erb
+------------------------------- */
+.big-bg3 {
+  background-image: url(../assets/menu-bg.jpg);
+  min-height: 100vh;
+}
+.menu-content {
+  max-width: 560px;
+  margin-top: 10%;
+}
+.menu-content .page-title {
+  text-align: center;
+}
+.menu-content p {
+  font-size: 1.125rem;
+  margin: 10px 0 0;
+}
+.grid {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 6%;
+  margin-bottom: 50px;
+}
+.big-box {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
+
+
+
+
+/* recipes/famile.html.erb
+------------------------------- */
+.famile{
+  width: 100%;
+}
+.famile img {
+  margin-bottom: 20px;
+
+}
+.familemoji{
+  font-size: 18px;
+  line-height: 42px;
+}

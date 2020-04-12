@@ -1,3 +1,196 @@
-// Place all the styles related to the contacts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/* contacts/new.html.erb
+------------------------------- */
+.big-bg4 {
+  background-image: url(../assets/contact-bg.jpg);
+  min-height: 100vh;
+}
+label {
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+  display: block;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  background: rgba(255,255,255,.5);
+  border: 1px #fff solid;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  width: 100%;
+  max-width: 240px;
+}
+textarea {
+  width: 100%;
+  max-width: 480px;
+  height: 6rem;
+}
+input[type="submit"] {
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+}
+/* 店舗情報・地図 */
+#location {
+  padding: 4% 0;
+}
+#location .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.location-info {
+  width: 22%;
+}
+.location-info p {
+  padding: 12px 10px;
+}
+.location-map {
+  width: 74%;
+}
+/* iframe */
+iframe {
+  width: 100%;
+}
+
+
+/*contacts/create.html.erb　*/
+.big-bg5 {
+  background-image: url(../assets/contact-bg.jpg);
+  min-height: 60vh;
+}
+.page-title2{
+  font-size: 20px;
+    font-family: 'Philosopher', serif;
+    text-align: center;
+}
+.button2{
+  font-size: 1.5rem;
+  background: #0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 18px 32px;
+    
+}
+.topbutton{
+  text-align: center;
+}
+/* お問い合わせ入力エラー */
+#name_error{
+  color: red;
+}
+#tel_error{
+  color: red;
+}
+#mail_error{
+  color: red;
+}
+
+
+
+
+/* contacts/confirm.html.erb */
+.contacts-title{
+  text-align: center;
+  font-size: 30px;
+}
+.contacts{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  padding-bottom: 70px;
+  padding: 20px 542px;
+}
+.contacts-name{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-bottom: thin solid;
+  border-bottom-color: powderblue;
+
+}
+.contacts-name__koumoku{
+  padding: 0 10px;
+}
+.contacts-name__name{
+  padding: 0 10px;
+}
+
+
+
+.contacts-tel{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-bottom: thin solid;
+  border-bottom-color: powderblue;
+}
+.contacts-tel__koumoku{
+  padding: 0 10px;
+}
+.contacts-tel__name{
+  padding: 0 10px;
+}
+
+
+
+.contacts-mail{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-bottom: thin solid;
+  border-bottom-color: powderblue;
+}
+.contacts-mail__koumoku{
+  padding: 0 10px;
+}
+.contacts-mail__name{
+  padding: 0 10px;
+}
+
+
+
+.contacts-content{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  border-bottom: thin solid;
+  border-bottom-color: powderblue;
+}
+.contacts-content__koumoku{
+  padding: 0 10px;
+}
+.contacts-content__name{
+  padding: 0 10px;
+}
+.contacts-button-box{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.contacts-button{
+  font-size: 1.5rem;
+  background: #0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 18px 32px;
+  width: 96px;
+}
+.main-title{
+  color:pink;
+  font-size: 40px;
+  margin: 26.56px 0px 26.56px 120px;
+
+}
+.main-image{
+  margin-left: 90px;
+
+}
+.main-sentence{
+  margin: 26.56px 0px 26.56px 120px;
+  font-size: 25px;
+
+}
