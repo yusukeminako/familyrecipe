@@ -74,7 +74,7 @@
 
 @media (max-width: 600px){
   .page-title{
-    font-size: 30px;
+    font-size: 20px;
   }
   .post-title{
     margin: 10px;
@@ -125,8 +125,7 @@
     line-height: 42px;
   }
   .sub-menu ul{
-    // flex-direction: column; //縦並びにする
-    // align-items: center;
+  
   }
   .sub {
     width: 100%;
@@ -142,6 +141,8 @@
     list-style: none;
     width: 100%;
     display: flex;
+    padding: 10px 10px;
+    margin:0 0;
   }
   .sub-menu a {
     padding: 10px 10px;
