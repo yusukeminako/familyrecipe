@@ -165,7 +165,7 @@ aside p {
 .sub-menu a {
   color: #432;
   padding: 10px;
-  display: block;
+  display: block; //ブロック要素にする
 }
 .sub-menu a:hover {
   color: #0bd;

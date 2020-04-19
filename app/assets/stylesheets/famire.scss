@@ -4,6 +4,12 @@
   margin: 26.56px 0px 26.56px 120px;
 
 }
+.main-title2{
+  color:pink;
+  font-size: 40px;
+  margin: 26.56px 0px 26.56px 120px;
+
+}
 .main-image{
   margin-left: 90px;
 
@@ -18,7 +24,6 @@
 
 }
 .main-sentence2{
-  // margin: 26.56px 0px 26.56px 120px;
   margin-right: 90px;
   margin-bottom: 120px;
   font-size: 18px;
@@ -54,3 +59,84 @@
 .banner:hover{
   color: #0bd;
 }
+
+.famile{
+  width: 100%;
+}
+.famile img {
+  margin-bottom: 20px;
+
+}
+.familemoji{
+  font-size: 18px;
+  line-height: 42px;
+}
+
+@media (max-width: 600px){
+  .page-title{
+    font-size: 35px;
+  }
+  .banner{
+    font-size:25px;
+    margin: 10px;
+    text-align: center;
+  }
+  .main-title{
+    font-size: 30px;
+    margin:10px;
+  }
+  .main-image{
+    margin: 10px;
+  }
+  .main-sentence{
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+  
+  }
+  .main-title2{
+    font-size: 26px;
+    margin:10px;
+  }
+  .main-sentence2{
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+  
+  }
+  .grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: 1fr;
+    margin-top: 6%;
+    margin-bottom: 50px;
+  }
+  .cook-title {
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 25px;
+  }
+  .familemoji{
+    font-size: 17px;
+    line-height: 42px;
+  }
+  .sub-menu ul{
+    flex-direction: column; //縦並びにする
+    align-items: center;
+  }
+  .sub {
+    width: 100%;
+    position: fixed;
+    right:0;
+    
+  }
+  .sub-menu {
+    margin-bottom: 60px;
+    list-style: none;
+    width: 100%;
+    display: flex;
+  }
+ 
+
+}
+
