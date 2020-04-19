@@ -74,7 +74,11 @@
 
 @media (max-width: 600px){
   .page-title{
-    font-size: 35px;
+    font-size: 30px;
+  }
+  .post-title{
+    margin: 10px;
+    text-align: center;
   }
   .banner{
     font-size:25px;
@@ -121,20 +125,26 @@
     line-height: 42px;
   }
   .sub-menu ul{
-    flex-direction: column; //縦並びにする
-    align-items: center;
+    // flex-direction: column; //縦並びにする
+    // align-items: center;
   }
   .sub {
     width: 100%;
     position: fixed;
-    right:0;
+    right: 10px;
+    left: 10px;
     
   }
+
+
+  
   .sub-menu {
-    margin-bottom: 60px;
     list-style: none;
     width: 100%;
     display: flex;
+  }
+  .sub-menu a {
+    padding: 10px 10px;
   }
  
 
