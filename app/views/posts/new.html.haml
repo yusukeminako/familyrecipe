@@ -4,28 +4,45 @@
     %meta{:charset => "utf-8"}/
     %title 新着情報
     %meta{:content => "家事代行サービス", :name => "description"}/
-    .big-bg2
+
+    
+          
+
+    .new-big-bg
       %header.page-header.wrapper
         %h1
           %a{:href => "/posts"}
             %img.logo{:alt => "ふぁみれロゴ", :src => "../assets/familelogo3.jpg"}/
         %nav
-          %ul.main-nav
+          %ul.main-nav2
             %li
               %a{:href => "/posts"} TOP
             %li
-              %a{:href => "/posts/new"} 新着情報
+              %a{:href => "/posts/recipe"} RECIPE
             %li
-              %a{:href => "/posts/recipe"} レシピ紹介
-            %li
-              %a{:href => "/contacts/new"} お問い合わせ
+              %a{:href => "/contacts/new"} CONTACT
       .wrapper
         %h2.page-title 新着情報
+
+
+
+      .small-category
+        %ul.small-category__type
+          %li
+            %a{:href => "/posts/show"} Instagram
+          %li
+            %a{:href => "#"} 料理教室
+          %li
+            %a{:href => "#"} イベント
+          %li
+            %a{:href => "#"} その他
+
+      
       .news-contents.wrapper
-        %article
+        %article.new
           %header.post-info
-            %h2.post-title 4月1日料理教室開催します！
-            %p.post-date
+            %h2.post-title2 4月1日料理教室開催します！
+            %p.post-date2
               3/30
               %span 2019
             %p.post-cat カテゴリー：料理教室
