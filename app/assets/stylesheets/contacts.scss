@@ -43,7 +43,8 @@ input[type="submit"] {
   justify-content: space-between;
 }
 .location-info {
-  width: 22%;
+  // width: 22%;
+  width: auto;
 }
 .location-info p {
   padding: 12px 10px;
@@ -178,5 +179,23 @@ iframe {
   border-radius: 5px;
   padding: 18px 32px;
   width: 96px;
+}
+@media (max-width: 600px){
+  .big-bg3 {
+    min-height: 64vh;
+  }
+  .big-box {
+    grid-column: auto;
+  }
+  #location .wrapper {
+    display: block!important;
+    // display:flexの解除
+  }
+  .location-info {
+    text-align: center;
+  }
+  .location-map {
+    width: 100%;
+  }
 }
 
