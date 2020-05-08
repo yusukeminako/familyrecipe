@@ -71,6 +71,9 @@
   font-size: 18px;
   line-height: 42px;
 }
+.fa-chevron-circle-up{
+  display: none;
+}
 
 @media (max-width: 600px){
   body{
@@ -160,6 +163,14 @@
   }
   .small-sub-menu a:hover{
     color: #0bd;
+  }
+  // 矢印
+  .fa-chevron-circle-up{
+    display: block;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    color: #00bbdd;
   }
 
 }
