@@ -1,7 +1,8 @@
 $(function(){
+  var position = $('.service').offset().top;
   $('.banner').click(function () {
     $('body,html').animate({
-      scrollTop: 2880
+      scrollTop: position
     });
     return false;
   });
