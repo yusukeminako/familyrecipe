@@ -70,6 +70,7 @@
     background: #0bd;
     border-radius: 5px;
     padding: 10px;
+    font-size: 10px;
   }
   aside {
     display: none;
@@ -91,6 +92,10 @@
   }
   .small-category li{
     padding: 0 10px;
+  }
+  .small-category a{
+    text-decoration: underline;
+    color: #432
   }
   .post-date2 {
     background: #0bd;
@@ -129,10 +134,20 @@
   .show-images {
     max-width: 80%;
     margin: 10px 37px;
-}
-.instaglam-coment{
-  text-align: center;
-}
+  }
+  .instaglam-coment{
+    text-align: center;
+  }
+  .post-title2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 40px 0px 10px 67px;
+    text-align: center;
+  }
+  .post-cat{
+    display: none;
+  }
+
 
 
 }
