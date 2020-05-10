@@ -52,13 +52,15 @@
   font-size: 17px;
   text-align: center;
 }
-.banner{
+
+.banner a:hover{
+  color: #0bd;
+}
+.banner a{
+  color: #432;
   margin: 0 265px;
   font-size: 20px;
   height: 25px;
-}
-.banner:hover{
-  color: #0bd;
 }
 
 .famile{
@@ -99,10 +101,15 @@
     text-align: center;
     margin: 0;
   }
-  .banner{
-    font-size: 15px;
+  // .banner{
+  //   font-size: 15px;
+  //   margin: 10px;
+  //   margin: 38px 10px 10px;
+  // }
+  .banner a {
     margin: 10px;
-    margin: 38px 10px 10px;
+    font-size: 15px;
+
   }
   .main-title{
     font-size: 30px;
@@ -153,15 +160,24 @@
   .small-sub-menu {
     display: flex;
     padding: 0 0;
-    margin: 37px 3px;
+    margin: 0px 28px 27px;
     font-size: 12px;
   }
 
   .small-sub-menu a{
-    color:black;
-    padding: 0 10px;
+    color: white;
+    padding: 10px 10px;
+    background: #0bd;
+    border-radius: 5px;
+    font-size: 10px;
     
   }
+  .small-sub-menu li{
+    padding: 10px 5px;
+  }
+   
+    
+  
   .small-sub-menu a:hover{
     color: #0bd;
   }

@@ -18,11 +18,11 @@
           %li
             %a{:href => "/posts"} TOP
           %li
-            %a{:href => "/posts/new"} 新着情報
+            %a{:href => "/posts/new"} NEW
           %li
-            %a{:href => "/posts/recipe"} レシピ紹介
+            %a{:href => "/posts/recipe"} RECOPE
           %li
-            %a{:href => "/contacts/new"} お問い合わせ
+            %a{:href => "/contacts/new"} CONTACT
           %li
             %a{:href => "/posts/show"} Instaglam
       .small-sub
@@ -30,17 +30,17 @@
           %li
             %a{:href => "/posts"} TOP
           %li
-            %a{:href => "/posts/new"} 新着情報
+            %a{:href => "/posts/new"} NEW
           %li
-            %a{:href => "/posts/recipe"} レシピ紹介
+            %a{:href => "/posts/recipe"} RECIPE
           %li
-            %a{:href => "/contacts/new"} お問い合わせ
+            %a{:href => "/contacts/new"} CONTACT
           %li
             %a{:href => "/posts/show"} Instaglam
       %i.fa.fa-chevron-circle-up{"aria-hidden" => "true", style: "font-size: 60px;"}
 
       .banner
-        Servise
+        %a{:href => "#1"} Servise
 
       
       
@@ -98,7 +98,7 @@
             完全オーダーメイドの作り置き料理代行サービスです。
             %br/
   
-          .service
+          .service{id: "#{1}"}
             .service__big
               Servise
             .service__small
