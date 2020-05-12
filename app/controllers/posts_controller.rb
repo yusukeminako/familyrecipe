@@ -4,6 +4,8 @@ class PostsController < ApplicationController
 
   def new
   end
-  def famile
+  def servise
+  end
+  def instagram
   end
 end
