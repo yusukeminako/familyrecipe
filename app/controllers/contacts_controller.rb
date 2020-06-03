@@ -33,5 +33,6 @@ class ContactsController < ApplicationController
 
   def contact_params
     params.permit(:name, :tel, :mail, :content)
+    # 特定の値だけを呼び出すようにしている（name,tel,mail,content）
   end
 end
