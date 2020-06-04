@@ -14,6 +14,7 @@ Rails.application.routes.draw do
       get 'confirm', to: 'contacts#confirm'
       post 'create', to: 'contacts#create'
       get 'done', to: 'contacts#done'
+      get 'newcontact', to: 'contacts#newcontact'
     end
   end
 end
